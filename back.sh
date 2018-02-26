@@ -4,7 +4,7 @@
 #                                                                                                            Info
 #----------------------------------------------------------------------------------------------------------------
 # name: backupserver
-# version: 3.1.6
+# version: 3.1.7
 # autor: joseRomera <web@joseromera.net>
 # web: http://www.joseromera.net
 # Copyright (C) 2016-2018
@@ -23,7 +23,8 @@
 # You should have received a copy of the GNU General Public License
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
-#
+#----------------------------------------------------------------------------------------------------------------
+
 
 #----------------------------------------------------------------------------------------------------------------
 #                                                                                                       Variables
@@ -89,6 +90,7 @@ find $PATHBCK/server_* -mtime +30 -exec rm {} \;
 
 # Eliminamos temporales
 rm -R $PATHTMP && cd /
+
 
 #----------------------------------------------------------------------------------------------------------------
 #                                                                                                             FIN
